@@ -1,0 +1,21 @@
+{
+  "name" : "Jtest",
+  "version": "1.0.1",
+  "description": "Add arbitrary content before the the closing head and body tags.",
+  "author": {
+    "name": "Jtest",
+    "link": "localhost:8002"
+  },
+  "data": {
+    "header": {
+      "label": "Head",
+      "info": "Code entered here will be adding to the published HTML just before the closing head tag.",
+      "type": "text"
+    },
+    "footer": {
+      "label": "Footer",
+      "info": "Code entered here will be adding to the published HTML just before the closing body tag.",
+      "type": "text"
+    }
+  }
+}
